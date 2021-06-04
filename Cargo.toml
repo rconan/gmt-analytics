@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 nalgebra = "0.26.2"
-skyangle = {path="../skyangle"}
-triangle-rs = {path="../triangle-rs"}
-zernike = {path="../zernike"}
-complot = {path="../complot"}
+skyangle = { git = "https://github.com/rconan/skyangle.git", branch = "main"}
+triangle-rs = { git = "https://github.com/rconan/triangle-rs.git", branch = "main"}
+zernike = { git = "https://github.com/rconan/zernike.git", branch = "main"}
+complot = { git = "https://github.com/rconan/complot.git", branch = "main"}
